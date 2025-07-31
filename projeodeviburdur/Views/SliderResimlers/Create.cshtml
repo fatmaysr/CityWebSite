@@ -1,0 +1,24 @@
+﻿@model projeodeviburdur.Models.SliderResimler
+
+@{
+    ViewBag.Title = "Yeni Slider Resmi Ekle";
+}
+
+<h2>Yeni Slider Resmi Ekle</h2>
+
+@using (Html.BeginForm("Create", "SliderResimlers", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResimUrl, "Resim")
+        <input type="file" name="resimDosyasi" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AltMetin)
+        @Html.EditorFor(model => model.AltMetin, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+}

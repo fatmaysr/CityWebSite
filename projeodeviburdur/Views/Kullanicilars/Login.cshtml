@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Giriş Yap";
+}
+@model projeodeviburdur.Models.Kullanicilar
+
+<!-- Arka Plan ve Sayfa Genel Yapısı -->
+<div class="d-flex justify-content-center align-items-center" style="min-height: 70vh; background: linear-gradient(to right, #6a11cb, #2575fc);">
+    <div class="login-box shadow-lg p-4 mb-5 bg-white rounded" style="width: 400px;">
+        <h2 class="text-center mb-4 text-primary">Giriş Yap</h2>
+
+        @using (Html.BeginForm("Login", "Kullanicilars", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <!-- Kullanıcı Adı Alanı -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.KullaniciAdi, new { @class = "form-label" })
+                @Html.TextBox("kullaniciAdi", null, new { @class = "form-control", placeholder = "Kullanıcı Adı", required = "true" })
+                @Html.ValidationMessage("kullaniciAdi", "", new { @class = "text-danger" })
+            </div>
+
+            <!-- Şifre Alanı -->
+            <div class="form-group">
+                @Html.LabelFor(model => model.Sifre, new { @class = "form-label" })
+                @Html.Password("sifre", null, new { @class = "form-control", placeholder = "Şifre", required = "true" })
+                @Html.ValidationMessage("sifre", "", new { @class = "text-danger" })
+            </div>
+
+            <!-- Giriş Yap Butonu -->
+            <button type="submit" class="btn btn-primary btn-block py-2 mt-3">Giriş Yap</button>
+        }
+    </div>
+</div>

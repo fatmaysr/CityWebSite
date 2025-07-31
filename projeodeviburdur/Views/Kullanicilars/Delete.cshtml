@@ -1,0 +1,49 @@
+﻿@model projeodeviburdur.Models.Kullanicilar
+
+@{
+    ViewBag.Title = "Silme Sayfası";
+}
+
+<h2>Silme Sayfası</h2>
+
+<h3>Silmek istediğinize emin misiniz?</h3>
+<div>
+    <h4>Kullanıcılar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KullaniciAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KullaniciAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sifre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sifre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rol)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Listeye Geri Dön", "Index")
+        </div>
+    }
+</div>

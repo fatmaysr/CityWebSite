@@ -1,0 +1,41 @@
+﻿@model projeodeviburdur.Models.SliderResimler
+
+@{
+    ViewBag.Title = "Sil";
+}
+
+<h2>Sil</h2>
+
+<h3>Bu öğeyi silmek istediğinizden emin misiniz?</h3>
+<div>
+    <h4>Slider Resimler</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ResimUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResimUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AltMetin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AltMetin)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Listeye Dön", "Index")
+        </div>
+    }
+</div>

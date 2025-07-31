@@ -1,0 +1,282 @@
+﻿/* Slider resimlerinin görüntüsü */
+.corusal-item img {
+    max-width: 100%; /* Resmin genişliğini konteynerle sınırla */
+    max-height: 80px; /* Resmin yüksekliğini 400px ile sınırla */
+    object-fit: cover; /* Resmin orantısını koruyarak kes */
+    /* Resmi ortalamak için */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sayfa arka planı ve genel stil */
+body {
+    background-color: #f7f7f7; /* Çok açık gri arka plan */
+    font-family: 'Roboto', sans-serif; /* Farklı font */
+    color: #333; /* Koyu gri metin */
+}
+
+/* Navbar menü çubuğu  renk değişikliği */
+.navbar {
+    background-color: #007bff; /* Mavi */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important; /* Beyaz metin */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #ff6347 !important; /* Kırmızımsı turuncu hover efekti */
+    }
+
+/* Footer en alt kısım stil */
+footer {
+    background-color: #2c3e50; /* Koyu mavi gri */
+    color: #ecf0f1; /* Açık gri yazı rengi */
+    padding: 20px 0;
+}
+
+    footer .text-center {
+        font-size: 14px;
+        color: #bdc3c7; /* Açık gri metin */
+    }
+
+/* Başlıklar için stil */
+h1, h2, h3 {
+    color: #2c3e50; /* Koyu mavi başlıklar */
+    margin-bottom: 20px; /*baslıkların alt tarfında 20px bosluk */
+    font-family: 'Montserrat', sans-serif; /* Modern başlık fontu */
+}
+
+/* Responsive butonlar ve menüler mobil cihazlarda uyumlu görüntü */
+@media (max-width: 768px){ /*ekran genişliği 768pxten küçük olunca devreye girer */ 
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+/* Hakkında Kartı için stil */
+.container.mt-5 {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none; /*kenarlık yok*/
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+    .card:hover {
+        transform: translateY(-5px); /*fareyle üzerine gelindiğinde hafif yukarı haraket eder */
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    }
+
+/* İlçeler tablosu satırlarında hover efekti */
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Satırın arka planını açık gri yapar */
+    cursor: pointer; /* Fareyi üzerine getirdiğinizde el işareti görünür */
+}
+
+/* Giriş yap kutusunun arka planı ve gölge */
+.login-box {
+    background-color: #e74c3c; /* Canlı kırmızı */
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Başlık (Giriş Yap) için stil */
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Form elemanları ve butonlar için genel stiller */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-control {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/* Hata mesajlarını kırmızı yapmak */
+.text-danger {
+    font-size: 13px;
+    color: #e74c3c; /* Canlı kırmızı */
+}
+
+/* Butonun stilini düzenleme */
+.btn {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Buton rengi ve hover efekti */
+.btn-primary {
+    background-color: #8e44ad; /* Mor */
+    border-color: #8e44ad;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #9b59b6;
+        border-color: #9b59b6;
+    }
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Dropdown yönetici menüsündeki seçenekler stil */
+.dropdown-menu {
+    display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+/* Mor butonlar */
+.btn-purple {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.btn-darkpurple {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.btn-lightpurple {
+    background-color: #d2b0d9;
+    color: white;
+}
+
+    .btn-purple:hover,
+    .btn-darkpurple:hover,
+    .btn-lightpurple:hover {
+        opacity: 0.8;
+    }
+
+/* Kırmızı butonlar */
+.btn-darkred {
+    background-color: #c0392b;
+    color: white;
+}
+
+.btn-red {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-lightred {
+    background-color: #f1948a;
+    color: white;
+}
+
+/* İlçe listeleme sayfası buton renkleri */
+.btn-blue {
+    background-color: #3498db; /* Mavi */
+    color: white;
+    border: 1px solid #3498db;
+}
+
+.btn-darkblue {
+    background-color: #2980b9; /* Koyu Mavi */
+    color: white;
+    border: 1px solid #2980b9;
+}
+
+.btn-lightblue {
+    background-color: #5dade2; /* Açık Mavi */
+    color: white;
+    border: 1px solid #5dade2;
+}
+
+/* Hover efektleri */
+.btn-blue:hover {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+}
+
+.btn-darkblue:hover {
+    background-color: #1f618d;
+    border: 1px solid #1f618d;
+}
+
+.btn-lightblue:hover {
+    background-color: #85c1e9;
+    border: 1px solid #85c1e9;
+}
+
+/* Özelleştirilmiş buton boyutu */
+.btn-sm {
+    font-size: 14px;
+    padding: 6px;
+    margin: 3px;
+}
+
+/* Giriş formu kutusunun stilini güzelleştirme */
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #f5f5f5; /* Gri arka plan */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+    .login-box h2 {
+        font-size: 28px;
+        font-weight: bold;
+        background: linear-gradient(to right, #6c5ce7, #fd79a8); /* Mor ve pembe renk geçişi */
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+/* Giriş yap butonunu güzelleştirme */
+.btn-primary {
+    background-color: #6c5ce7;
+    border: none;
+    font-size: 16px;
+    padding: 14px;
+    width: 35%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+    .btn-primary:hover {
+        background-color: #5a4ecf;
+    }

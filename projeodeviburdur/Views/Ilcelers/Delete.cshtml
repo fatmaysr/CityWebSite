@@ -1,0 +1,41 @@
+﻿@model projeodeviburdur.Models.Ilceler
+
+@{
+    ViewBag.Title = "Sil";
+}
+
+<h2>Sil</h2>
+
+<h3>Bu ilçeyi silmek istediğinizden emin misiniz?</h3>
+<div>
+    <h4>İlçeler</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IlceAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IlceAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nufus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nufus)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Listeye Geri Dön", "Index")
+        </div>
+    }
+</div>

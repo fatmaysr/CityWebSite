@@ -1,0 +1,42 @@
+﻿@model projeodeviburdur.Models.Kullanicilar
+
+@{
+    ViewBag.Title = "Detaylar";
+}
+
+<h2>Detaylar</h2>
+
+<div>
+    <h4>Kullanıcılar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KullaniciAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KullaniciAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sifre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sifre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rol)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Listeye Geri Dön", "Index")
+</p>

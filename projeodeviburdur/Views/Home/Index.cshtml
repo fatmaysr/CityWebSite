@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Hakkında";
+}
+
+<div class="container text-center mt-4">
+    <h1 class="hosgeldiniz">Burdur Şehrine Hoş Geldiniz</h1>
+    <p class="lead text-muted">Bu site, Burdur şehri hakkında bilgiler sunmaktadır. Üye olursanız, daha fazla içeriğe erişebilirsiniz.</p>
+</div>
+<div id="slider" class="carousel slide mt-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            var first = true;
+            foreach (var item in Model) // Model üzerinden slider resimlerini döngüyle alın
+            {
+                <div class="carousel-item @(first ? "active" : "")">
+                    <img src="@Url.Content(item.ResimUrl)" class="d-block w-100 " alt="@item.AltMetin">
+                </div>
+                first = false; // İlk eleman "active" sınıfı alır
+            }
+        }
+    </div>
+    <!-- Önceki buton -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+    </button>
+    <!-- Sonraki buton -->
+    <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+    </button>
+</div>
+<div id="slider" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="3000">
+
+    <div class="container-fluid p-0">
+        <div class="row justify-content-center">
+            <!-- Hakkında Kartı -->
+            <div class="col-12 mb-4">
+                <h2 class="text-center text-info">Hakkında</h2>
+                <div class="card shadow-lg">
+                    <div class="card-body bg-light">
+                        <p>
+                            Burdur, Türkiye'nin Akdeniz Bölgesi'nde yer alan tarihi bir şehirdir. Hem tarihi hem de kültürel açıdan büyük bir öneme sahiptir. Şehir, özellikle Anadolu'nun ilk büyük medeniyetlerinden biri olan Hititlere başkentlik yapmasıyla ünlüdür. Hititler, MÖ 1600 ile MÖ 1200 yılları arasında bölgede güçlü bir uygarlık kurmuş ve bu uygarlığın kalıntıları günümüzde Burdur'un Alacahöyük ve Boğazkale gibi yerleşimlerinde görülebilir.
+                            Burdur, zengin bir kültürel mirasa sahip olmasının yanı sıra, doğal güzellikleriyle de dikkat çeker. Şehirdeki yaylalar, dağlar ve ormanlar, doğa severler için mükemmel gezilecek yerler sunar. Ayrıca, Şehirdeki geleneksel el sanatları ve mutfak kültürü, özellikle Burdur'un meşhur leblebisi, yerel halkın yaşam tarzını ve kültürünü yansıtır.
+                            Tarım, Burdur'un ekonomisinde önemli bir yer tutar. Şehir, buğday, mısır, ayçiçeği gibi tarım ürünlerinin üretimiyle bilinir. Ayrıca, sanayi de gelişmiştir ve özellikle gıda işleme ve tekstil sektörlerinde önemli yatırımlar yapılmıştır.
+                            Burdur, aynı zamanda birçok tarihi yapıyı barındıran bir şehir olup, bölgedeki pek çok önemli tarihi mekan turistlerin ilgisini çeker. Şehir, hem geçmişin izlerini hem de modern yaşamın izlerini bir arada sunar.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-info text-white text-center">
+                        Daha fazlasını öğrenmek için <a href="/Kullanicilars/Login" class="text-white text-decoration-underline">tıklayın</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-dark text-center text-white py-4 mt-5">
+        <p> 2025 Burdur Website. Tüm hakları saklıdır.</p>
+
+    </footer>

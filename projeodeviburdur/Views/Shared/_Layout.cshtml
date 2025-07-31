@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ASP.NET Uygulamam</title>
+    @Styles.Render("/Content/css")
+
+    <!-- Bootstrap CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="@Url.Content("~/Content/stillerim.css")">
+    <link rel="stylesheet" href="~/Content/stillerim.css" />
+
+    <!-- jQuery ve Bootstrap JS -->
+
+
+
+
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            @Html.ActionLink("Burdur", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Gezintiyi aç/kapat">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar İçeriği -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Ana Sayfa Herkes İçin Görünür -->
+                    <li class="nav-item">
+                        @Html.ActionLink("Ana Sayfa", "Index", "Home", new { area = "" }, new { @class = "nav-link" })
+                    </li>
+
+                    <!-- Giriş Yapmayan Kullanıcılar -->
+                    @if (Session["KullaniciAdi"] == null)
+                    {
+                        <li class="nav-item">
+                            @Html.ActionLink("Giriş Yap", "Login", "Kullanicilars", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+                    }
+                    else
+                    {
+                        <!-- Giriş Yapan Kullanıcılar -->
+                        <li class="nav-item">
+                            @Html.ActionLink("Hakkında", "About", "Home", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+
+                        <!-- Yönetici Menüsü -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="adminMenu" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Yönetici
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="adminMenu">
+                                <li>
+                                    @Html.ActionLink("İlçeler", "Index", "Ilcelers", new { area = "" }, new { @class = "dropdown-item" })
+                                </li>
+                                <li>
+                                    @Html.ActionLink("Nüfus", "Index", "Nufus", new { area = "" }, new { @class = "dropdown-item" })
+                                </li>
+                                <li>
+                                    @Html.ActionLink("Turistik Yerler", "Index", "TuristikYerlers", new { area = "" }, new { @class = "dropdown-item" })
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Çıkış Yap -->
+                        <li class="nav-item">
+                            @Html.ActionLink("Çıkış Yap", "Logout", "Kullanicilars", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Main content -->
+    <div class="container body-content mt-4">
+        @RenderBody()
+        <hr />
+        <footer class="text-center mt-4">
+            <p>&copy; @DateTime.Now.Year - ASP.NET Uygulamam</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
