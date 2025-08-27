@@ -13,8 +13,6 @@ Hakkında
 
 Gezilecek Yerler
 
-Canlı Demo için ziyaret edebilirsiniz :  https://fatmaysr.github.io/CityWebSite/
-
 <img width="1333" height="834" alt="Ekran görüntüsü 2025-08-27 222058" src="https://github.com/user-attachments/assets/08db680b-f812-4611-a63a-42fc0528aabb" />
 
 
