@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="burdurModelStoreContainer" CdmEntityContainer="burdurvt">
+    <EntitySetMapping Name="Ilcelers">
+      <EntityTypeMapping TypeName="burdurModel.Ilceler">
+        <MappingFragment StoreEntitySet="Ilceler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IlceAdi" ColumnName="IlceAdi" />
+          <ScalarProperty Name="Nufus" ColumnName="Nufus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanicilars">
+      <EntityTypeMapping TypeName="burdurModel.Kullanicilar">
+        <MappingFragment StoreEntitySet="Kullanicilar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nufus">
+      <EntityTypeMapping TypeName="burdurModel.Nufu">
+        <MappingFragment StoreEntitySet="Nufus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Yil" ColumnName="Yil" />
+          <ScalarProperty Name="NufusSayisi" ColumnName="NufusSayisi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SliderResimlers">
+      <EntityTypeMapping TypeName="burdurModel.SliderResimler">
+        <MappingFragment StoreEntitySet="SliderResimler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ResimUrl" ColumnName="ResimUrl" />
+          <ScalarProperty Name="AltMetin" ColumnName="AltMetin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TuristikYerlers">
+      <EntityTypeMapping TypeName="burdurModel.TuristikYerler">
+        <MappingFragment StoreEntitySet="TuristikYerler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TuristikYerler1" ColumnName="TuristikYerler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

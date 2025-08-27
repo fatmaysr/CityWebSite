@@ -1,0 +1,44 @@
+﻿@model IEnumerable<projeodeviburdur.Models.TuristikYerler>
+
+@{
+    ViewBag.Title = "Turistik Yer Listeleme Sayfası";
+}
+
+<h2 class="text-center mb-4">Turistik Yer Listeleme Sayfası</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-purple btn-sm mb-3">Yeni Turistik Yer Ekle</a>
+</p>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TuristikYerler1)
+            </th>
+            <th class="text-center">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TuristikYerler1)
+                </td>
+                <td class="text-center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <!-- Düzenle Butonu -->
+                        <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-darkpurple btn-sm">Düzenle</a>
+
+                        <!-- Detaylar Butonu -->
+                        <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-purple btn-sm">Detaylar</a>
+
+                        <!-- Sil Butonu -->
+                        <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-lightpurple btn-sm" onclick="return confirm('Bu turistik yeri silmek istediğinizden emin misiniz?')">Sil</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

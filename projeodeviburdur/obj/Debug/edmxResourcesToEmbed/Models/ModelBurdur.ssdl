@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="burdurModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ilceler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IlceAdi" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Nufus" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Rol" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nufus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Yil" Type="int" Nullable="false" />
+    <Property Name="NufusSayisi" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SliderResimler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResimUrl" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="AltMetin" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TuristikYerler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TuristikYerler" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="burdurModelStoreContainer">
+    <EntitySet Name="Ilceler" EntityType="Self.Ilceler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nufus" EntityType="Self.Nufus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SliderResimler" EntityType="Self.SliderResimler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TuristikYerler" EntityType="Self.TuristikYerler" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

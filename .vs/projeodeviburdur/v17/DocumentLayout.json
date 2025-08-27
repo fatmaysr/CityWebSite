@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|c:\\users\\fatma\\desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\models\\modelburdur.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\models\\modelburdur.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\controllers\\kullanicilarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\controllers\\kullanicilarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\content\\stillerim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\content\\stillerim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_FATMA_DESKTOP_WEB_PROGRAMLAMA_PROJE_PROJEODEVIBURDUR_PROJEODEVIBURDUR_APP_DATA_BURDUR.MDF/True/SqlTable/dbo.SliderResimler.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\nufus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\nufus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\turistikyerlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\turistikyerlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\sliderresimlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\sliderresimlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\views\\ilcelers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\views\\ilcelers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\controllers\\sliderresimlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\controllers\\sliderresimlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\controllers\\turistikyerlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D31745-A79D-4D3F-A00E-8865D496267E}|projeodeviburdur\\projeodeviburdur.csproj|solutionrelative:projeodeviburdur\\controllers\\turistikyerlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelBurdur.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Models\\ModelBurdur.edmx",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Models\\ModelBurdur.edmx",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\web\\aspnet\\programlama proje\\projeodeviburdur\\projeodeviburdur\\Models\\ModelBurdur.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\web\\aspnet\\programlama proje\\projeodeviburdur\\projeodeviburdur\\Models\\ModelBurdur.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-04T10:36:18.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KullanicilarsController.cs",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\KullanicilarsController.cs",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Controllers\\KullanicilarsController.cs",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\KullanicilarsController.cs",
+              "RelativeToolTip": "projeodeviburdur\\Controllers\\KullanicilarsController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwKIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:32:38.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Nufus\\Index.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\Nufus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Nufus\\Index.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\Nufus\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:30:43.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\SliderResimlers\\Index.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\SliderResimlers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\SliderResimlers\\Index.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\SliderResimlers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:15:52.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Web.config",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Web.config",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Web.config",
+              "RelativeToolTip": "projeodeviburdur\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-06T17:11:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.SliderResimler.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_FATMA_DESKTOP_WEB_PROGRAMLAMA_PROJE_PROJEODEVIBURDUR_PROJEODEVIBURDUR_APP_DATA_BURDUR.MDF/True/SqlTable/dbo.SliderResimler.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_FATMA_DESKTOP_WEB_PROGRAMLAMA_PROJE_PROJEODEVIBURDUR_PROJEODEVIBURDUR_APP_DATA_BURDUR.MDF/True/SqlTable/dbo.SliderResimler.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-09T10:53:49.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stillerim.css",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Content\\stillerim.css",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Content\\stillerim.css",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Content\\stillerim.css",
+              "RelativeToolTip": "projeodeviburdur\\Content\\stillerim.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAANAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T06:08:52.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:11:20.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Ilcelers\\Create.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\Ilcelers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Ilcelers\\Create.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\Ilcelers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T17:11:08.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T17:09:19.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T17:08:48.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "projeodeviburdur\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:23:55.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\TuristikYerlers\\Index.cshtml",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Views\\TuristikYerlers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Views\\TuristikYerlers\\Index.cshtml",
+              "RelativeToolTip": "projeodeviburdur\\Views\\TuristikYerlers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:30:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SliderResimlersController.cs",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\SliderResimlersController.cs",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Controllers\\SliderResimlersController.cs",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\SliderResimlersController.cs",
+              "RelativeToolTip": "projeodeviburdur\\Controllers\\SliderResimlersController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:08:12.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TuristikYerlersController.cs",
+              "DocumentMoniker": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\TuristikYerlersController.cs",
+              "RelativeDocumentMoniker": "projeodeviburdur\\Controllers\\TuristikYerlersController.cs",
+              "ToolTip": "C:\\Users\\FATMA\\Desktop\\bm\\2\\projeodeviburdur\\projeodeviburdur\\Controllers\\TuristikYerlersController.cs",
+              "RelativeToolTip": "projeodeviburdur\\Controllers\\TuristikYerlersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:07:10.34Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
